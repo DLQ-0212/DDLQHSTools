@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LQPerson : NSObject
 
+/// 单利对象
++ (instancetype) shareInstance;
+
 @property (nonatomic, copy) NSString *name;
 
 @property (nonatomic, assign) NSInteger age;
@@ -18,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *hobby;
 
 - (void) sayHello;
+
+- (NSString *) perInstanceValues;
 @end
 
 NS_ASSUME_NONNULL_END
