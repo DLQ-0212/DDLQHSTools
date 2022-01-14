@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DEDC2112279142F7001D3B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC2111279142F7001D3B9A /* main.m */; };
+		DEDC211A27914397001D3B9A /* LQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC211927914397001D3B9A /* LQPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DEDC210E279142F7001D3B9A /* GitOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDC2111279142F7001D3B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEDC211827914397001D3B9A /* LQPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQPerson.h; sourceTree = "<group>"; };
+		DEDC211927914397001D3B9A /* LQPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DEDC2111279142F7001D3B9A /* main.m */,
+				DEDC211827914397001D3B9A /* LQPerson.h */,
+				DEDC211927914397001D3B9A /* LQPerson.m */,
 			);
 			path = GitOC;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEDC2112279142F7001D3B9A /* main.m in Sources */,
+				DEDC211A27914397001D3B9A /* LQPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
