@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DEDC2112279142F7001D3B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC2111279142F7001D3B9A /* main.m */; };
 		DEDC211A27914397001D3B9A /* LQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC211927914397001D3B9A /* LQPerson.m */; };
+		DEDC211D27916AC3001D3B9A /* LQTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC211C27916AC3001D3B9A /* LQTeacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DEDC2111279142F7001D3B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEDC211827914397001D3B9A /* LQPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQPerson.h; sourceTree = "<group>"; };
 		DEDC211927914397001D3B9A /* LQPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQPerson.m; sourceTree = "<group>"; };
+		DEDC211B27916AC3001D3B9A /* LQTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTeacher.h; sourceTree = "<group>"; };
+		DEDC211C27916AC3001D3B9A /* LQTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTeacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				DEDC2111279142F7001D3B9A /* main.m */,
 				DEDC211827914397001D3B9A /* LQPerson.h */,
 				DEDC211927914397001D3B9A /* LQPerson.m */,
+				DEDC211B27916AC3001D3B9A /* LQTeacher.h */,
+				DEDC211C27916AC3001D3B9A /* LQTeacher.m */,
 			);
 			path = GitOC;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDC211D27916AC3001D3B9A /* LQTeacher.m in Sources */,
 				DEDC2112279142F7001D3B9A /* main.m in Sources */,
 				DEDC211A27914397001D3B9A /* LQPerson.m in Sources */,
 			);
